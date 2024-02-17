@@ -1,0 +1,170 @@
+[
+{
+  "directory": "/home/copperthief/catalyst",
+  "command": "/usr/bin/c++ -DCLANG -DDEBUG -DGLEW_STATIC -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -g -O0 -o CMakeFiles/catalyst.dir/src/AttributeOrder.cpp.o -c /home/copperthief/catalyst/src/AttributeOrder.cpp",
+  "file": "/home/copperthief/catalyst/src/AttributeOrder.cpp",
+  "output": "CMakeFiles/catalyst.dir/src/AttributeOrder.cpp.o"
+},
+{
+  "directory": "/home/copperthief/catalyst",
+  "command": "/usr/bin/c++ -DCLANG -DDEBUG -DGLEW_STATIC -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -g -O0 -o CMakeFiles/catalyst.dir/src/Catalyst.cpp.o -c /home/copperthief/catalyst/src/Catalyst.cpp",
+  "file": "/home/copperthief/catalyst/src/Catalyst.cpp",
+  "output": "CMakeFiles/catalyst.dir/src/Catalyst.cpp.o"
+},
+{
+  "directory": "/home/copperthief/catalyst",
+  "command": "/usr/bin/c++ -DCLANG -DDEBUG -DGLEW_STATIC -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -g -O0 -o CMakeFiles/catalyst.dir/src/IndexBuffer.cpp.o -c /home/copperthief/catalyst/src/IndexBuffer.cpp",
+  "file": "/home/copperthief/catalyst/src/IndexBuffer.cpp",
+  "output": "CMakeFiles/catalyst.dir/src/IndexBuffer.cpp.o"
+},
+{
+  "directory": "/home/copperthief/catalyst",
+  "command": "/usr/bin/c++ -DCLANG -DDEBUG -DGLEW_STATIC -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -g -O0 -o CMakeFiles/catalyst.dir/src/InputHandler.cpp.o -c /home/copperthief/catalyst/src/InputHandler.cpp",
+  "file": "/home/copperthief/catalyst/src/InputHandler.cpp",
+  "output": "CMakeFiles/catalyst.dir/src/InputHandler.cpp.o"
+},
+{
+  "directory": "/home/copperthief/catalyst",
+  "command": "/usr/bin/c++ -DCLANG -DDEBUG -DGLEW_STATIC -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -g -O0 -o CMakeFiles/catalyst.dir/src/Shader.cpp.o -c /home/copperthief/catalyst/src/Shader.cpp",
+  "file": "/home/copperthief/catalyst/src/Shader.cpp",
+  "output": "CMakeFiles/catalyst.dir/src/Shader.cpp.o"
+},
+{
+  "directory": "/home/copperthief/catalyst",
+  "command": "/usr/bin/c++ -DCLANG -DDEBUG -DGLEW_STATIC -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -g -O0 -o CMakeFiles/catalyst.dir/src/VertexArray.cpp.o -c /home/copperthief/catalyst/src/VertexArray.cpp",
+  "file": "/home/copperthief/catalyst/src/VertexArray.cpp",
+  "output": "CMakeFiles/catalyst.dir/src/VertexArray.cpp.o"
+},
+{
+  "directory": "/home/copperthief/catalyst",
+  "command": "/usr/bin/c++ -DCLANG -DDEBUG -DGLEW_STATIC -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -g -O0 -o CMakeFiles/catalyst.dir/src/VertexBuffer.cpp.o -c /home/copperthief/catalyst/src/VertexBuffer.cpp",
+  "file": "/home/copperthief/catalyst/src/VertexBuffer.cpp",
+  "output": "CMakeFiles/catalyst.dir/src/VertexBuffer.cpp.o"
+},
+{
+  "directory": "/home/copperthief/catalyst",
+  "command": "/usr/bin/c++ -DCLANG -DDEBUG -DGLEW_STATIC -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -g -O0 -o CMakeFiles/catalyst.dir/src/Window.cpp.o -c /home/copperthief/catalyst/src/Window.cpp",
+  "file": "/home/copperthief/catalyst/src/Window.cpp",
+  "output": "CMakeFiles/catalyst.dir/src/Window.cpp.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/context.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/context.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/init.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/init.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/input.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/input.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/monitor.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/monitor.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/vulkan.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/vulkan.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/window.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/window.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/x11_init.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/x11_init.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/x11_init.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/x11_monitor.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/x11_monitor.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/x11_window.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/x11_window.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/x11_window.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/xkb_unicode.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/xkb_unicode.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/posix_time.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/posix_time.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/posix_time.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/posix_thread.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/posix_thread.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/glx_context.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/glx_context.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/glx_context.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/egl_context.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/egl_context.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/osmesa_context.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/osmesa_context.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -D_GLFW_USE_CONFIG_H -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/include -I/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src -g -O0 -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/linux_joystick.c",
+  "file": "/home/copperthief/catalyst/lib/glfw/glfw-3.3.7/src/linux_joystick.c",
+  "output": "lib/glfw/glfw-3.3.7/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glew/glew-2.2.0/build/cmake",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -DGLEW_NO_GLU -DGLEW_STATIC -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glew/glew-2.2.0/build/cmake/../../include -g -O0 -o CMakeFiles/glew_s.dir/__/__/src/glew.c.o -c /home/copperthief/catalyst/lib/glew/glew-2.2.0/src/glew.c",
+  "file": "/home/copperthief/catalyst/lib/glew/glew-2.2.0/src/glew.c",
+  "output": "lib/glew/glew-2.2.0/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glew/glew-2.2.0/build/cmake",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -DGLEW_BUILD -DGLEW_NO_GLU -Dglew_EXPORTS -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glew/glew-2.2.0/build/cmake/../../include -g -O0 -fPIC -o CMakeFiles/glew.dir/__/__/src/glew.c.o -c /home/copperthief/catalyst/lib/glew/glew-2.2.0/src/glew.c",
+  "file": "/home/copperthief/catalyst/lib/glew/glew-2.2.0/src/glew.c",
+  "output": "lib/glew/glew-2.2.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glew/glew-2.2.0/build/cmake",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -DGLEW_NO_GLU -DGLEW_STATIC -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glew/glew-2.2.0/build/cmake/../../include -g -O0 -o CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.o -c /home/copperthief/catalyst/lib/glew/glew-2.2.0/src/glewinfo.c",
+  "file": "/home/copperthief/catalyst/lib/glew/glew-2.2.0/src/glewinfo.c",
+  "output": "lib/glew/glew-2.2.0/build/cmake/CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.o"
+},
+{
+  "directory": "/home/copperthief/catalyst/lib/glew/glew-2.2.0/build/cmake",
+  "command": "/usr/bin/cc -DCLANG -DDEBUG -DGLEW_NO_GLU -DGLEW_STATIC -I/home/copperthief/catalyst/./lib/glfw-3.3.6/include -I/home/copperthief/catalyst/./lib/glew-2.1.0/include -I/home/copperthief/catalyst/./lib/stb_image -I/home/copperthief/catalyst/./lib/glm -I/home/copperthief/catalyst/./lib/imgui -I/home/copperthief/catalyst/lib/glew/glew-2.2.0/build/cmake/../../include -g -O0 -o CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.o -c /home/copperthief/catalyst/lib/glew/glew-2.2.0/src/visualinfo.c",
+  "file": "/home/copperthief/catalyst/lib/glew/glew-2.2.0/src/visualinfo.c",
+  "output": "lib/glew/glew-2.2.0/build/cmake/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.o"
+}
+]
