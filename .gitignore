@@ -2,3 +2,6 @@
 .cache/
 .direnv/
 build/
+
+CMakeCache.txt
+CMakeFiles/
