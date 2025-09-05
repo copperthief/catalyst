@@ -2,6 +2,8 @@
 A very basic 'game engine' I made a few years ago to learn OpenGL.
 It contains a working camera/movement system and a luxurious bottomless cube, which you spawn inside of.
 
+<img width="563" height="450" alt="image" src="https://github.com/user-attachments/assets/cfbde69b-b966-4832-a0e6-1fe7fabf4da9" />
+
 ### Controls
 - Mouse: look around
 - W: move forward
