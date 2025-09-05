@@ -1,5 +1,5 @@
 # catalyst
-A very basic OpenGL 'game engine' I made a few years ago.
+A very basic 'game engine' I made a few years ago to learn OpenGL.
 It contains a working camera/movement system and a luxurious bottomless cube, which you spawn inside of.
 
 ### Controls
