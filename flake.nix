@@ -18,6 +18,8 @@
           xorg.libXcursor
           xorg.libXi
 
+          libGL
+
           glew
           glfw
 

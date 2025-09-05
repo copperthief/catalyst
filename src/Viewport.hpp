@@ -8,105 +8,101 @@
 
 class Viewport
 {
-	private:
-		int HorizSize;
-		int VertSize;
+private:
+  int HorizSize;
+  int VertSize;
 
-		float FOV = 69;
-		float nearLimit = 0.1f;
-		float farLimit = 100.0f;
+  float FOV = 69;
+  float nearLimit = 0.1f;
+  float farLimit = 100.0f;
 
-		glm::vec3 position;
-		float HorizAngle = 0;
-		float VertAngle = 0;
-	public:
-		Viewport(int horiz_size, int vert_size)
-			: HorizSize(horiz_size), VertSize(vert_size) {}
+  glm::vec3 position;
+  float HorizAngle = 0;
+  float VertAngle = 0;
 
-		glm::mat4x4 getMVP()
-		{
+public:
+  Viewport(int horiz_size, int vert_size)
+  : HorizSize(horiz_size), VertSize(vert_size) {}
 
-        glm::vec3 direction(
-    cos(VertAngle) * sin(HorizAngle),
-    sin(VertAngle),
-    cos(VertAngle) * cos(HorizAngle)
-);
-	
-glm::vec3 right = glm::vec3(
-    sin(HorizAngle - 3.14f/2.0f),
-    0,
-    cos(HorizAngle - 3.14f/2.0f)
-);
+  glm::mat4x4 getMVP()
+  {
 
-// Up vector : perpendicular to both direction and right
-glm::vec3 up = glm::cross( right, direction );
-        glm::mat4 proj = glm::perspective(glm::radians(FOV), (float) HorizSize / (float) VertSize, nearLimit, farLimit);
-        glm::mat4 view = glm::lookAt(position, position+direction, up);
-        glm::mat4 model = glm::mat4(1.0f);
+    glm::mat4 proj = glm::perspective(glm::radians(FOV), (float) HorizSize / (float) VertSize, nearLimit, farLimit);
+    glm::mat4 view = glm::lookAt(position, position + forward(), up());
+    glm::mat4 model = glm::mat4(1.0f);
 
-        glm::mat4 mvp = proj * view * model;
+    glm::mat4 mvp = proj * view * model;
 
-		return mvp;
-		}
+    return mvp;
+  }
 
-	void moveForward(float speed)
-	{
-        glm::vec3 direction(
-			cos(VertAngle) * sin(HorizAngle),
-			sin(VertAngle),
-			cos(VertAngle) * cos(HorizAngle)
-		);
-		position += direction * speed;
-	}
+  void moveForward(float speed)
+  {
+    position += forward() * speed;
+  }
 
-	
-	void moveBackward(float speed)
-	{
-        glm::vec3 direction(
-			cos(VertAngle) * sin(HorizAngle),
-			sin(VertAngle),
-			cos(VertAngle) * cos(HorizAngle)
-		);
-		position -= direction * speed;
-	}
+  void moveBackward(float speed)
+  {
+    position += backward() * speed;
+  }
 
-	void moveRight(float speed)
-	{
-        glm::vec3 direction(
-			cos(VertAngle) * sin(HorizAngle),
-			sin(VertAngle),
-			cos(VertAngle) * cos(HorizAngle)
-		);
+  void moveRight(float speed)
+  {
+    position += right() * speed;
+  }
 
-		glm::vec3 right = glm::vec3(
-		    sin(HorizAngle - 3.14f/2.0f),
-		    0,
-		    cos(HorizAngle - 3.14f/2.0f)
-		);
+  void moveLeft(float speed)
+  {
+    position += left() * speed;
+  }
 
-		position += right * speed;
-	}
+  void moveUp(float speed)
+  {
+    position += up() * speed;
+  }
 
-	void moveLeft(float speed)
-	{
-        glm::vec3 direction(
-			cos(VertAngle) * sin(HorizAngle),
-			sin(VertAngle),
-			cos(VertAngle) * cos(HorizAngle)
-		);
+  void moveDown(float speed)
+  {
+    position += down() * speed;
+  }
 
-		glm::vec3 right = glm::vec3(
-		    sin(HorizAngle - 3.14f/2.0f),
-		    0,
-		    cos(HorizAngle - 3.14f/2.0f)
-		);
+  void turn(double cursor_diff_horiz, double cursor_diff_vert, float mouseSpeed)
+  {
 
-		position -= right * speed;
-	}
+    HorizAngle += mouseSpeed * cursor_diff_horiz;
+    VertAngle += mouseSpeed * cursor_diff_vert;
+  }
 
-	void turn(double mouse_pos_horiz, double mouse_pos_vert, float mouseSpeed)
-	{
-		HorizAngle += mouseSpeed * (HorizSize / 2 - mouse_pos_horiz);
-		VertAngle += mouseSpeed * (VertSize / 2 - mouse_pos_vert);
-	}
+  glm::vec3 forward() {
+    return glm::vec3(
+      cos(VertAngle) * sin(HorizAngle),
+      sin(VertAngle),
+      cos(VertAngle) * cos(HorizAngle)
+    );
+  }
+
+  glm::vec3 backward() {
+    return -1.0f * forward();
+  }
+
+  glm::vec3 right() {
+    return glm::vec3(
+      sin(HorizAngle - 3.14f/2.0f),
+      0,
+      cos(HorizAngle - 3.14f/2.0f)
+    );
+  }
+
+  glm::vec3 left() {
+    return -1.0f * right();
+  }
+
+  glm::vec3 up() {
+    return glm::cross(right(), forward());
+  }
+
+  glm::vec3 down() {
+    return -1.0f * up();
+  }
+
 };

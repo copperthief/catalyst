@@ -1,5 +1,6 @@
 #include "Window.hpp"
 
+#include <GLFW/glfw3.h>
 #include <iostream>
 
 Window::Window(int horiz_size, int vert_size)
@@ -18,6 +19,8 @@ Window::Window(int horiz_size, int vert_size)
 		std::cout << "!window" << std::endl;
 	}
 
+  glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+
 	glfwMakeContextCurrent(window);
 
 	glfwSwapInterval(1);
@@ -25,6 +28,9 @@ Window::Window(int horiz_size, int vert_size)
 	
 	if(glewInit() != GLEW_OK) std::cout << "SAD ALERT: GLEW NOT OK!" << std::endl;
 
+  glfwGetWindowSize(window, &horiz_size, &vert_size);
+
+  std::cout << horiz_size << " " << vert_size;
 
 	viewport = new Viewport(horiz_size, vert_size);
 
@@ -55,7 +61,7 @@ void Window::loadIndices(unsigned int indices[], unsigned int count)
 
 bool Window::update()
 {
-	input.handleInput(window, viewport);
+  input.handleInput(window, viewport);
 
 
 	GLC(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT));
