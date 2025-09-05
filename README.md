@@ -1,2 +1,18 @@
 # catalyst
+A very basic OpenGL 'game engine' I made a few years ago.
+It contains a working camera/movement system and a luxurious bottomless cube, which you spawn inside of.
 
+### Controls
+- Mouse: look around
+- W: move forward
+- A: move left
+- S: move backward
+- D: move right
+- Space: move up
+- Shift: move down
+
+### Installation
+The included nix flake contains a devshell with all the dependencies.
+If you don't want to use it, you can instead install them yourself. They can be found in the `buildInputs` list in the flake.nix file.
+Once the dependencies are taken care of, run `cmake .` in the project directory and then `make`.
+Finally, to start the application, run the produced executable: `./catalyst`
